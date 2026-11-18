@@ -1,0 +1,16 @@
+# Python dependencies for the CodeAlpha Cybersecurity Internship projects
+# Requires Python 3.8+
+# Install with:  pip install -r requirements.txt
+
+# Task 1 - Basic Network Sniffer (task1_network_sniffer/network_sniffer.py)
+scapy>=2.5.0
+
+# Task 2 - Phishing Awareness Training (task2_phishing_awareness/phishing_training.py)
+# Uses the Python standard library only (random, re, shutil, sys, textwrap, urllib).
+# No third-party packages needed.
+
+# --- System-level requirements for Task 1 (not installable via pip) ---
+# Windows : install Npcap (https://npcap.com) and run the terminal as Administrator
+# Linux   : run with sudo; install libpcap if BPF filters (-f) fail:
+#           sudo apt install libpcap-dev
+# macOS   : run with sudo (libpcap is built in)
